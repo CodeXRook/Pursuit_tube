@@ -44,6 +44,7 @@ class Home extends React.Component {
                 feedCopy[0].videos[0].title = data.items[0].snippet.title
                 feedCopy[0].videos[0].thumbnail = data.items[0].snippet.thumbnails.medium.url
                 feedCopy[0].videos[0].channel = data.items[0].snippet.channelTitle
+                feedCopy[0].videos[0].posted = data.items[0].snippet.publishedAt
             })
 
     }
