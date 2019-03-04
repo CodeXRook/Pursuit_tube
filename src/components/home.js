@@ -65,9 +65,13 @@ class Home extends React.Component {
                         <h1 className="display-4">User's Playlist </h1>
                      </div>
                     </div>
-                    
-                    <div className="container">
 
+                    <div className="container">
+                    <div className="row feed">
+                    
+                    
+                    
+                    </div>
 
                    </div>
 
