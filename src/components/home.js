@@ -35,10 +35,14 @@ class Home extends React.Component {
                 videoEmbeddable: 'true',
                 key: 'AIzaSyBqsTC2uJ5zklkPcEDeLpAz4B6UktMYuPo',
                 q: query,
-                pageToken:''
-                
+                pageToken:''         
             }
         })
+            .then(res => res.data)
+            .then((data)=>{
+                
+            })
+
     }
 
 }
