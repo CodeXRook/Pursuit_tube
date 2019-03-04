@@ -140,8 +140,14 @@ class Home extends React.Component {
                       <h4>Coldfusion</h4>
                    </div>
                  </div>
-                 
-                 <div className='fl' className="side"></div>
+
+                 <div className='fl' className="side">
+                 {
+                     this.state.feedlist.map((feed, i) =>{
+                         
+                     })
+                 }
+                 </div>
 
             </>
         )
