@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Link } from 'react-router-dom'
+import Home from './components/home';
 
 
 
@@ -9,7 +10,7 @@ class App extends Component {
     super(props);
     this.state={
 
-      
+
     }
   }
   render() {
