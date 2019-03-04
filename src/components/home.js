@@ -87,6 +87,7 @@ class Home extends React.Component {
                           </div>
                         </div>
 
+                        <div className='fl' className="side">
 
                     </div>
                     
