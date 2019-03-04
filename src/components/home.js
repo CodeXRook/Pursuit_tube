@@ -31,6 +31,12 @@ class Home extends React.Component {
                 part: 'snippet',
                 maxResults: 8,
                 videoDefinition: 'high',
+                type: 'video',
+                videoEmbeddable: 'true',
+                key: 'AIzaSyBqsTC2uJ5zklkPcEDeLpAz4B6UktMYuPo',
+                q: query,
+                pageToken:''
+                
             }
         })
     }
