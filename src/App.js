@@ -17,7 +17,7 @@ class App extends Component {
      <Route path='/' exact component={Home} />
      <Route path='/user' component={User} />
      <Route path='/feededitor' component={FeedEditor} />
-
+     <Route path='/searches' component={Search} />
      </>
      </HashRouter>
       </>
