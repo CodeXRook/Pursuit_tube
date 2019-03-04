@@ -51,7 +51,11 @@ class Home extends React.Component {
 
     }
                 //NOW WE MOUNT
-    componentDidMount()
+    componentDidMount(){
+        let query = this.state.feedlist[0].query
+        this.getVideos(query)
+    }
 
+    
 
 }
