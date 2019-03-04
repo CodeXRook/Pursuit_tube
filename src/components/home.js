@@ -101,7 +101,7 @@ class Home extends React.Component {
                             })
 
                         }
-                         
+                         <button type="button" class="btn btn-outline-dark">Show more</button>
                     </div>
                     
                     
