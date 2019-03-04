@@ -113,6 +113,11 @@ class Home extends React.Component {
                     </div>
 
                     <div className='fl' className="side">
+                    {
+                        this.state.feedlist.map((feed, i)=>{
+                            return <div className= 'row'>
+                        })
+                    }
 
                     </div>
 
