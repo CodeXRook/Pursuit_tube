@@ -83,6 +83,11 @@ class Home extends React.Component {
 
                     <div className='title' className="main">
 
+                          <h2> Espn First Take</h2>
+                          </div>
+                        </div>
+
+
                     </div>
                     
                     
