@@ -116,7 +116,18 @@ class Home extends React.Component {
                     {
                         this.state.feedlist.map((feed, i)=>{
                             return <div className= 'row'>
-                        })
+
+                            {
+
+                                feed.videos.map((video)=>{
+                                    return <Video video= {video}/>
+
+                                })
+
+                            }
+                            </div>
+
+                      })
                     }
 
                     </div>
