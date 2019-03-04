@@ -47,9 +47,11 @@ class Home extends React.Component {
                 feedCopy[0].videos[0].posted = data.items[0].snippet.publishedAt
                 feedCopy[0].videos[0].id = data.items[0].id.
                 this.setState({ feedlist: feedCopy })
-
-            })
+             })
 
     }
+                //NOW WE MOUNT
+    componentDidMount()
+
 
 }
