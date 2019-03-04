@@ -61,6 +61,7 @@ class Home extends React.Component {
             <>
                     <div className= 'Container'>
                       <div className='Jumbo'>
+                      <div className="jumbotron jumbotron-fluid">
                       
                     </div>
 
