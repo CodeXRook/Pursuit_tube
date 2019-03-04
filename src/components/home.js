@@ -69,7 +69,10 @@ class Home extends React.Component {
                     <div className="container">
                     <div className="row feed">
                     <div className="col-2">
-                    
+
+                    <h1>Feed list</h1>
+                    <div className="list-group">
+
                     </div>
                     
                     
