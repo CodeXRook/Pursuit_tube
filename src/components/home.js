@@ -103,8 +103,10 @@ class Home extends React.Component {
                         }
                          <button type="button" class="btn btn-outline-dark">Show more</button>
                     </div>
-                    
+
                     <div className="col-10"></div>
+
+                    <div className='title' className="main">
                     
                     </div>
 
