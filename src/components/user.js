@@ -26,5 +26,7 @@ class User extends React.Component {
       this.setState({
           currentUser,
       })
-      
+
   }
+
+  onNameChange(e) =>{}
