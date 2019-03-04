@@ -75,6 +75,9 @@ class Home extends React.Component {
                     <a href="#" className="list-group-item list-group-item-action">ESPN First Take</a>
                     <a href="#" className="list-group-item list-group-item-action">Drake</a>
                     <a href="#" className="list-group-item list-group-item-action">Coldfusion</a>
+                    </div>                   
+                    </div>
+
 
                     </div>
                     
