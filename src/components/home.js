@@ -135,6 +135,8 @@ class Home extends React.Component {
 
                     <div className="col-10">
 
+                      <div className='title' className="main">
+
                    </div>
 
             </>
