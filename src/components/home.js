@@ -107,7 +107,10 @@ class Home extends React.Component {
                     <div className="col-10"></div>
 
                     <div className='title' className="main">
-                    
+
+                    <h3> Drake</h3>
+                    </div>
+
                     </div>
 
                    </div>
