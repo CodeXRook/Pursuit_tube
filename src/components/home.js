@@ -60,7 +60,8 @@ class Home extends React.Component {
         return(
             <>
                     <div className= 'Container'>
-                    
+                      <div className='Jumbo'>
+                      
                     </div>
 
             </>
