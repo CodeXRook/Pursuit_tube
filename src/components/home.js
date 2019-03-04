@@ -60,10 +60,16 @@ class Home extends React.Component {
         return(
             <>
                     <div className= 'Container'>
-                      <div className='Jumbo'>
-                      <div className="jumbotron jumbotron-fluid">
-                      
+                        <div className='Jumbo'>
+                        <div className="jumbotron jumbotron-fluid">
+                        <h1 className="display-4">User's Playlist </h1>
+                     </div>
                     </div>
+                    
+                    <div className="container">
+
+
+                   </div>
 
             </>
         )
