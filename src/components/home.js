@@ -147,11 +147,15 @@ class Home extends React.Component {
                          return <div className='row' >
                          {
                              feed.videos.map((video)=> {
-                                 
+                                 return<Video video={videeo} />
                              })
                          }
+
+                         </div>
                      })
                  }
+
+              <button type="button" class="btn btn-outline-dark">Show more</button>
                  </div>
 
             </>
