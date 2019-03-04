@@ -6,5 +6,6 @@ class User extends React.Component {
         super(props)
         this.state = {
             users: [],
+            input: '',
     }
 }
