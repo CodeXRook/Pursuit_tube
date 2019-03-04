@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Link } from 'react-router-dom'
 import Home from './components/home';
+import User from './components/user';
 
 
 
