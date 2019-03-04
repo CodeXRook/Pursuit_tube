@@ -11,3 +11,9 @@ side{
     margin-top: 15px;
 }
 
+.main{
+    flex: 70%;
+    background-color: white;
+    padding:20px;
+}
+
