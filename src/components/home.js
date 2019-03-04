@@ -109,7 +109,10 @@ class Home extends React.Component {
                     <div className='title' className="main">
 
                     <h3> Drake</h3>
+                     </div>
                     </div>
+
+                    <div className='fl' className="side">
 
                     </div>
 
