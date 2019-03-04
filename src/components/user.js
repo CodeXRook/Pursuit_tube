@@ -29,4 +29,7 @@ class User extends React.Component {
 
   }
 
-  onNameChange(e) =>{}
+  onNameChange =(e) => {
+    console.log(e.target.value)
+    this.setState({ input: e.target.value})
+  }
