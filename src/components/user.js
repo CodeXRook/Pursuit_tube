@@ -19,4 +19,12 @@ class User extends React.Component {
     })
  }
 
-  clickingUser =(e , index)=>{}
+  clickingUser =(e , index)=>{
+      console.log(e.target.innerHTML)
+      const currentUser =this.state.user[index]
+
+      this.setState({
+          currentUser,
+      })
+      
+  }
