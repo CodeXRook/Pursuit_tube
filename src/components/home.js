@@ -81,6 +81,8 @@ class Home extends React.Component {
                     <div className="feedList">
                     <div className="col-10"> 
 
+                    <div className='title' className="main">
+
                     </div>
                     
                     
