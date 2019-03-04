@@ -23,5 +23,15 @@ class Home extends React.Component {
 
         }
     }
-    
+    getVideos =(query) => {
+        axios({
+            method: 'get',
+            url: 'https://www.googleapis.com/youtube/v3/search',
+            params:{
+                part: 'snippet',
+                maxResults: 8,
+            }
+        })
+    }
+
 }
