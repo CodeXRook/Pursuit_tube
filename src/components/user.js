@@ -33,3 +33,5 @@ class User extends React.Component {
     console.log(e.target.value)
     this.setState({ input: e.target.value})
   }
+
+  addNewUser = (e) => {}
