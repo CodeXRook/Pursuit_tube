@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios'; //TO MAKE API CALL
+import axios from 'axios'; //TO MAKE API CALLs
 
 class Home extends React.Component {
     constructor(props) {
