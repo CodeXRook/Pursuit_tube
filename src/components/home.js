@@ -40,7 +40,8 @@ class Home extends React.Component {
         })
             .then(res => res.data)
             .then((data)=>{
-                
+                let feedCopy = [...this.state.feedlist]
+                feedCopy[0].videos[0].title = data.items[0].snippet.title
             })
 
     }
