@@ -30,6 +30,7 @@ class Home extends React.Component {
             params:{
                 part: 'snippet',
                 maxResults: 8,
+                videoDefinition: 'high',
             }
         })
     }
