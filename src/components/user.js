@@ -7,5 +7,11 @@ class User extends React.Component {
         this.state = {
             users: [],
             input: '',
+            currentUser: ''
     }
 }
+
+ //DOES IT EXIST IN LOCAL STORAGE?, IF YES THEN SET IT TO STATE
+ componentWillMount(){
+     
+ }
