@@ -1,5 +1,6 @@
 import React from 'react';
-import axios from 'axios'; //TO MAKE API CALLs
+import axios from 'axios'; //TO MAKE API CALL
+import './home.css'
 
 class Home extends React.Component {
     constructor(props) {
