@@ -72,6 +72,7 @@ class Home extends React.Component {
 
                     <h1>Feed list</h1>
                     <div className="list-group">
+                    <a href="#" className="list-group-item list-group-item-action">ESPN First Take</a>
 
                     </div>
                     
