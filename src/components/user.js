@@ -15,4 +15,5 @@ class User extends React.Component {
  componentWillMount(){
     localStorage.getItem('users') && this.setState({
         users: JSON.parse(localStorage.getItem('users')),
+        input: ''
  }
