@@ -17,3 +17,7 @@ componentWillMount() {
         input: ''
     })
 }
+
+clickingFeed = (e, idx) =>{
+    
+}
