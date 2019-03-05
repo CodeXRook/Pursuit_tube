@@ -65,6 +65,7 @@ clickingFeed = (e, idx) =>{
            {
                 this.state.feed.map((feed, i) => {
                     let activeFeed = " ";
+                    if (feed === this.state.currentFeed) activeFeed = "active"
                 }
            }
 
