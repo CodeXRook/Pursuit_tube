@@ -7,5 +7,8 @@ import Header from './header';
 
 
 class Search extends Component {
-    
+    constructor(props){
+        super(props)
+        this.state= {}
+    }
 }
