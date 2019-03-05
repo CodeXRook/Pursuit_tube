@@ -27,10 +27,12 @@ class FeedEditor extends React.Component {
             array.splice(idx, 1);
             this.setState({ feed: array });
         }
+
         onFeedChange = (e) => {
             console.log(e.target.value)
             this.setState({ input: e.target.value })
         }
+
         addFeeder = (e) => {
             console.log('keystroke', e)
             e.preventDefault();
@@ -39,6 +41,9 @@ class FeedEditor extends React.Component {
             }
             //   LET NEWUSER = THIS.STATE.USERS.PUSH(THIS.STATE.INPUT)
             let copiedFeed = [...this.state.feed]
+
+            copiedFeed.push(this.state.input)
+
             this.setState({ feed: copiedFeed })
 
         }
