@@ -21,4 +21,5 @@ componentWillMount() {
 clickingFeed = (e, idx) =>{
     const currentFeed = this.state.feed[idx]
     let array = [...this.state.feed]; 
+    let index = array.indexOf(currentFeed)
 }
