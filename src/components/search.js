@@ -86,8 +86,8 @@ class Search extends Component {
                         <Link to={`/video/${vid.video_id}`}><img onClick={e=>this.addHistory(vid)} src={vid.img} alt={vid.img} /></Link>
                     </div>
                     <div className='col-6'>
+                    <Link className='link_name' to={`/video/${vid.video_id}`}>{vid.title}</Link>
 
-                    
                   </div>
                   </div>
 
