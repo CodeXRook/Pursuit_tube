@@ -9,6 +9,7 @@ import Header from './header';
 class Search extends Component {
     constructor(props){
         super(props)
-        this.state= {}
+        this.state= { isLoading:true, data:[],pageToken:'', hover:false}
     }
+    
 }
