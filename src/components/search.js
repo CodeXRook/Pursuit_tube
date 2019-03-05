@@ -21,6 +21,7 @@ class Search extends Component {
                 maxResults: 5,
                 videoDefinition: 'high',
                 type: 'video',
+                videoEmbeddable: 'true',
             }
         })
     }
