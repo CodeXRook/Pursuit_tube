@@ -40,5 +40,6 @@ class User extends React.Component {
       if (this.state.users.includes(this.state.input)) {
         return alert(`Username ${this.state.input} already exist`)
     }
-    
+    // LET NEWUSER = THIS.STATE.USER.PUSH(THIS.STATE.INPUT)
+    let copiedUsers = [...this.state.users]
   }
