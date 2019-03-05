@@ -4,3 +4,8 @@ import axios from 'axios';
 import Home from '/home';
 import Home from '/home.css';
 import Header from './header';
+
+
+class Search extends Component {
+    
+}
