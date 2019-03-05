@@ -23,9 +23,14 @@ construcor(props){
                 videoDefintion: 'high',
                 type: 'video',
                 videoEmbeddable: 'true',
-                
+                key: 'AIzaSyAL6JKGb4TLsmM4MKvk0f85Bu4QpaJvgEs',
+                q: query,
+                pageToken: ''
             }
         })
+
+
+        
     }
 }
 
