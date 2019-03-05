@@ -19,5 +19,5 @@ componentWillMount() {
 }
 
 clickingFeed = (e, idx) =>{
-    
+    const currentFeed = this.state.feed[idx]
 }
