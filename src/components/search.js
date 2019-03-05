@@ -13,7 +13,9 @@ class Search extends Component {
     }
 
     getVideoList = (query,pageToken='')=>{
-        
+        axios({
+            method: 'get',
+        })
     }
 
 }
