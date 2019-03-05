@@ -62,7 +62,10 @@ class Search extends Component {
                 this.setState({data:[]})
                 this.getVideoList(newProps.match.params.search_term)
                 window.addEventListener('scroll', this.handleOnScroll)
+            }
 
+            handleOnScroll =()=> {
+                
             }
     }
 }
