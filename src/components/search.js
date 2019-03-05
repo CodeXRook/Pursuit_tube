@@ -45,7 +45,7 @@ class Search extends Component {
               if (!suggestions)
               localStorage.setItem('suggestions',JSON.stringify(obj))
             }
-            else{
+            else {
                 suggestions.vids = suggestions.vids.concat(obj.vids)
                 localStorage.setItem('suggestions',JSON.stringify(suggestions))
             }
