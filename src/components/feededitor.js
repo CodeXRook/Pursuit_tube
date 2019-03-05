@@ -42,5 +42,8 @@ clickingFeed = (e, idx) =>{
          this.setState({ feed: copiedFeed })
 
     }
+        //BEFORE RENDERING AND AFTER THE FUNCTION
+        componentWillUpdate(nextProps, nextState)
+
   }
 }
