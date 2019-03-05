@@ -34,7 +34,9 @@ clickingFeed = (e, idx) =>{
     addFeeder = (e) =>{
         console.log('keystroke', e)
         e.preventDefault();
-        if (this.state.feed.includes(this.state.input))
+        if (this.state.feed.includes(this.state.input)){
+            return alert(`Feed ${this.state.input} is already in list`)
+        }
     }
   }
 }
