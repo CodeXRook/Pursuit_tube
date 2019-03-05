@@ -62,6 +62,9 @@ clickingFeed = (e, idx) =>{
            <div className='col-6'>
            <div><h3>Explore Feed List</h3></div>
            <ul class="list-group"></ul>
+           {
+                this.state.feed.map((feed, i)
+           }
 
            </div>
           </>
