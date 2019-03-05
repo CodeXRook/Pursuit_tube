@@ -22,6 +22,7 @@ class Search extends Component {
                 videoDefinition: 'high',
                 type: 'video',
                 videoEmbeddable: 'true',
+                key: 'AIzaSyAqwvNBfv73cn5RuP-VoRrMpekbCqStUTY',
             }
         })
     }
