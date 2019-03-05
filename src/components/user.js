@@ -34,4 +34,7 @@ class User extends React.Component {
     this.setState({ input: e.target.value})
   }
 
-  addNewUser = (e) => {}
+  addNewUser = (e) => {
+      console.log('keystroke', e)
+      e.preventDeault();
+  }
