@@ -6,8 +6,10 @@ const Navbar = props => {
     return (
         <>
              <div class="flex-container">
-             
+
              <nav class="navbar navbar-expand-lg ">
+
+             <img width='20' src={require('../assets/image.jpeg')} />
 
              </div>
 
