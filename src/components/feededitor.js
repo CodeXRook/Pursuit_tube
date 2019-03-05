@@ -39,6 +39,7 @@ clickingFeed = (e, idx) =>{
         }
          //   LET NEWUSER = THIS.STATE.USERS.PUSH(THIS.STATE.INPUT)
          let copiedFeed = [...this.state.feed]
+         this.setState({ feed: copiedFeed })
 
     }
   }
