@@ -4,6 +4,7 @@ import Home from './components/home';
 import User from './components/user';
 import Search from './components/searches';
 import axios from 'axios';
+import Navbar from './components/header';
 //import Videos from './components/video'; THIS SHOULD GO IN SEARCHES.JS
 
 
