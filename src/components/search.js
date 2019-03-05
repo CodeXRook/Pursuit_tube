@@ -88,6 +88,7 @@ class Search extends Component {
                     <div className='col-6'>
                     <Link className='link_name' to={`/video/${vid.video_id}`}>{vid.title}</Link>
                     <p>{vid.channel_title}</p>
+                    <p>{vid.descrip}</p>
                     
                   </div>
                   </div>
