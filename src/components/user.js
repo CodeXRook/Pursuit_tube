@@ -65,7 +65,8 @@ render(){
        <ul className= "list-group">
        {
            this.state.users.map((name, i) =>{
-               
+               let activeClass = "";
+               if (name === this.state.currentUser) activeClass = "active"
            })
 
        }
