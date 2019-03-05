@@ -19,6 +19,7 @@ class Search extends Component {
             params:{
                 part: 'snippet',
                 maxResults: 5,
+                videoDefinition: 'high',
             }
         })
     }
