@@ -37,4 +37,5 @@ class User extends React.Component {
   addNewUser = (e) => {
       console.log('keystroke', e)
       e.preventDeault();
+      if (this.state.users.includes(this.state.input)) {
   }
