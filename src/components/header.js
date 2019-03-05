@@ -7,6 +7,8 @@ const Navbar = props => {
         <>
              <div class="flex-container">
              
+             <nav class="navbar navbar-expand-lg ">
+
              </div>
 
         </>
