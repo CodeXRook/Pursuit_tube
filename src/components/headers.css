@@ -31,5 +31,5 @@
     background-color:rgb(61, 61, 69);
     color: blue;
     border: solid blue; 
-
+    box-sizing: border-box;  
 }
