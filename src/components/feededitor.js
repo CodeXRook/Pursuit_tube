@@ -56,10 +56,11 @@ clickingFeed = (e, idx) =>{
            <div className='col-6'>
            <div><h3>Create a New Explore Feed</h3></div>
            <input type='text' placeholder='feed' onChange={this.onFeedChange} /><button onClick={this.addFeeder}>add</button>
-
-           
+  
            </div>
            
+           <div className='col-6'>
+
            </div>
           </>
       )
