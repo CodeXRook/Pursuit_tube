@@ -89,7 +89,8 @@ class Search extends Component {
                     <Link className='link_name' to={`/video/${vid.video_id}`}>{vid.title}</Link>
                     <p>{vid.channel_title}</p>
                     <p>{vid.descrip}</p>
-                    
+                    <p>{this.relativeTime(vid.date)}</p>
+
                   </div>
                   </div>
 
