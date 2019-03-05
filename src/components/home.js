@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './component/video';
+import Video from './components/video';
 import axios from 'axios'; //TO MAKE API CALL
 import './home.css'
 
