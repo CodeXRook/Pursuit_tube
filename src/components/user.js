@@ -67,9 +67,10 @@ render(){
            this.state.users.map((name, i) =>{
                let activeClass = "";
                if (name === this.state.currentUser) activeClass = "active"
-           })
+               return <li key={i} className={"list-group-item" + activeClass} onClick={(e) => this.clickingUser(e, i)} style={{backgroundColor:this.state.bgColor}}>{name}</li>;
+             })
 
-       }
+         }
        </ul>
        </div>
        </div>
@@ -78,3 +79,5 @@ render(){
 }
 
 }
+
+export default User;
