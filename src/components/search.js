@@ -39,7 +39,8 @@ class Search extends Component {
                 currentLoad.date = vid.snippet.publishedAt
                 videoListData.push(currentLoad)
               })
-
+              let nextLoad = this.state.data.concat(videoListData)
+              
             }
         })
 
