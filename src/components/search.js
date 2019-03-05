@@ -17,7 +17,7 @@ class Search extends Component {
             method: 'get',
             url: 'https://www.googleapis.com/youtube/v3/search',
             params:{
-                
+                part: 'snippet',
             }
         })
     }
