@@ -23,6 +23,8 @@ class Search extends Component {
                 type: 'video',
                 videoEmbeddable: 'true',
                 key: 'AIzaSyAqwvNBfv73cn5RuP-VoRrMpekbCqStUTY',
+                q: query,
+                pageToken: pageToken
             }
         })
     }
