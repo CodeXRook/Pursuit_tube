@@ -20,6 +20,7 @@ class Search extends Component {
                 part: 'snippet',
                 maxResults: 5,
                 videoDefinition: 'high',
+                type: 'video',
             }
         })
     }
