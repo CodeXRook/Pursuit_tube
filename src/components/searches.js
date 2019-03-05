@@ -41,8 +41,14 @@ construcor(props){
         let query = this.state.input
         this.loadVideos(query)
     }
-    
 
+componentDidUpdate(prevState, prevProps){
+
+    console.log('updated', prevState)
+    console.log('stateNow', this.state)
+    }
+
+ 
     }
 }
 
