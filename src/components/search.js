@@ -33,6 +33,7 @@ class Search extends Component {
                 let currentLoad = {}
                 currentLoad.video_id = vid.id.videoId  //VIDEO ID
                 currentLoad.img = vid.snippet.thumbnails.medium.url //IMG URL
+                currentLoad.title = vid.snippet.title //TITLE
 
             }
         })
