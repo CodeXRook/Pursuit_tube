@@ -15,6 +15,7 @@ construcor(props){
 
     loadVideos = (query) => {
         axios({
+            method: 'get',
             
         })
     }
