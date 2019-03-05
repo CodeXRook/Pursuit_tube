@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter, Route, Link } from 'react-router-dom'
 import Home from './components/home';
 import User from './components/user';
-import Videos from './components/video';
+//import Videos from './components/video'; THIS SHOULD GO IN SEARCHES.JS
 
 
 
