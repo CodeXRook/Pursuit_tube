@@ -55,6 +55,7 @@ class Search extends Component {
             componentDidMount(){
                 this.getVideoList(this.props.match.params.search_term)
                 window.addEventListener('scroll', this.handleOnScroll(this.props.match.params.search_term))
+                window.addEventListener('scroll', this.handleOnScroll);
             }
     }
 }
