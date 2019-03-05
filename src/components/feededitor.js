@@ -20,4 +20,5 @@ componentWillMount() {
 
 clickingFeed = (e, idx) =>{
     const currentFeed = this.state.feed[idx]
+    let array = [...this.state.feed]; 
 }
