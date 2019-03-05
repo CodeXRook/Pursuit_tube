@@ -13,6 +13,6 @@ class FeedEditor extends React.Component {
 //DOES IT EXIST IN LOCAL STORAGE?, IF YES THEN SET IT TO STATE
 componentWillMount() {
     localStorage.getItem('feed') && this.setState({
-        
+        feed: JSON.parse(localStorage.getItem('feed')),
     })
 }
