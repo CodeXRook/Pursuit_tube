@@ -49,10 +49,11 @@ class Search extends Component {
                 suggestions.vids = suggestions.vids.concat(obj.vids)
                 localStorage.setItem('suggestions',JSON.stringify(suggestions))
             }
-
+                this.setState({isLoading:false,data:nextLoad,pageToken:response.data.nextPageToken})
+           })
+        }
+            componentDidMount(){
+                
             }
-        })
-
     }
-
 }
