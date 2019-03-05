@@ -72,7 +72,7 @@ class Search extends Component {
 
                 if(scrolledToButtom){
                     setTimeout(this.getVideoList(this.props.match.params.search_term,this.state.pageToken), 2000 )
-                    
+                    window.scrollTo(0,1000)
                 }
             }
         
