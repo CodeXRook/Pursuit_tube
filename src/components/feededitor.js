@@ -32,7 +32,7 @@ clickingFeed = (e, idx) =>{
         this.setState({ input: e.target.value })
     }
     addFeeder = (e) =>{
-        
+        console.log('keystroke', e)
     }
   }
 }
