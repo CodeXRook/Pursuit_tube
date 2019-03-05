@@ -69,10 +69,15 @@ class Search extends Component {
                 const scrollHeight = (document.documentElement && document.documentElement.scrollHeight) || document.body.scrollHeight;
                 const clientHeight = document.documentElement.clientHeight || window.innerHeight;
                 const scrolledToBottom = Math.ceil(scrollTop + clientHeight) >= scrollHeight;
-            }
-        }
 
-        render(){
+                if(scrolledToButtom){
+                    setTimeout(this.getVideoList(this.props.match.params.search_term,this.state.pageToken), 2000 )
+                    
+                }
+            }
+        
+
+        render() {
             if(this.state.isLoading) return <div className="spinner-border text-info" role="status">
              <span className="sr-only">Loading...</span>
              </div>
@@ -85,6 +90,7 @@ class Search extends Component {
                         <div className='col-4'>
                         <Link to={`/video/${vid.video_id}`}><img onClick={e=>this.addHistory(vid)} src={vid.img} alt={vid.img} /></Link>
                     </div>
+
                     <div className='col-6'>
                     <Link className='link_name' to={`/video/${vid.video_id}`}>{vid.title}</Link>
                     <p>{vid.channel_title}</p>
@@ -93,10 +99,13 @@ class Search extends Component {
                   </div>
                   </div>
                 })
-                {
+                  
+                  }
                <button onClick={e=>{this.getVideoList(this.props.match.params.search_term,this.state.offset+10)}}>Load More</button>
-
-                }
-        }
+                </div>
+                </div>
+                </>
+            }
     }
 }
+export default withRouter(Search)
