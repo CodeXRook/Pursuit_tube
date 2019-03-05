@@ -31,6 +31,7 @@ class Search extends Component {
             const videoListData = []
             response.data.items.forEach(vid=>{
                 let currentLoad = {}
+                currentLoad.video_id = vid.id.videoId  //VIDEO ID
 
             }
         })
