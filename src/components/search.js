@@ -82,6 +82,7 @@ class Search extends Component {
                   <div style={{marginLeft:'10%'}}>
                   {this.state.data.map((vid, i)=>{
                       return <div className='hover row' key={i}>
+                        <div className='col-4'>
                   </div>
                   </div>
 
