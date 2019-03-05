@@ -44,6 +44,7 @@ clickingFeed = (e, idx) =>{
     }
         //BEFORE RENDERING AND AFTER THE FUNCTION
         componentWillUpdate(nextProps, nextState)
+        localStorage.setItem('feed', JSON.stringify(nextState.feed))
 
   }
 }
