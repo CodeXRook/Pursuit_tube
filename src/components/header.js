@@ -25,6 +25,7 @@ const Navbar = props => {
 
              <button className='searchButton' type='text' placeholder='Search ...' >Search</button>
 
+             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
              </div>
 
