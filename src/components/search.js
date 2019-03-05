@@ -58,8 +58,9 @@ class Search extends Component {
                 window.addEventListener('scroll', this.handleOnScroll);
             }
 
-            componentWillRecceiveProps(newProps){
-                
+            componentWillReceiveProps(newProps){
+                this.setState({data:[]})
+
             }
     }
 }
