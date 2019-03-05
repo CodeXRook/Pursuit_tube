@@ -52,7 +52,9 @@ clickingFeed = (e, idx) =>{
       return(
           <>
            <div className='row'>
+           
            <div className='col-6'>
+           <div><h3>Create a New Explore Feed</h3></div>
            
            </div>
            
