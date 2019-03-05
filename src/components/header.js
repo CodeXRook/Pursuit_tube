@@ -11,6 +11,8 @@ const Navbar = props => {
 
              <img width='20' src={require('../assets/image.jpeg')} />
 
+             <div class="Pursuit">
+
              </div>
 
         </>
