@@ -61,14 +61,16 @@ componentDidUpdate(prevState, prevProps){
                         {e.snippet.default}
                         {<img src={e.snippet.thumbnail.default.url} alt ='vid'/>}
                         {e.snippet.channelTitle}
+                        </div>
                 })
                 }
                 </div>
+                <div className="col"></div>
+                </div>
+
             </>
-        )
-    }
- 
-    }
+        );
+     }
 }
 
 
