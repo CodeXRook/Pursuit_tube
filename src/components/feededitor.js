@@ -29,6 +29,8 @@ clickingFeed = (e, idx) =>{
     }
     onFeedChange =(e) =>{
         console.log(e.target.value)
+        this.setState({ input: e.target.value })
     }
+    
   }
 }
