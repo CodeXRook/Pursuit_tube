@@ -34,6 +34,7 @@ clickingFeed = (e, idx) =>{
     addFeeder = (e) =>{
         console.log('keystroke', e)
         e.preventDefault();
+        if (this.state.feed.includes(this.state.input))
     }
   }
 }
