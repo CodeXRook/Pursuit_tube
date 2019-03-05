@@ -65,7 +65,8 @@ class Search extends Component {
             }
 
             handleOnScroll =()=> {
-                
+                const scrollTop = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+
             }
     }
 }
