@@ -28,9 +28,14 @@ const Navbar = props => {
              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
              <div class="navbar-nav">
-             
-             </div>
 
+             </div>
+            </div>
+            </nav>
+            </div>
+            </div>
         </>
     )
 }
+
+export default Navbar;
