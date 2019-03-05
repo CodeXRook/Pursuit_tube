@@ -4,7 +4,7 @@ import axios from 'axios';
 import './home.css';
 import moment from 'moment'; //NEED TO GO OVER MOMENT;
 
-class Search extend React.Component {
+class Search extends React.Component {
 construcor(props){
     super(props)
     this.state ={
