@@ -80,6 +80,7 @@ class Search extends Component {
                  return<>
                   <div className="jumbotron">
                   <div style={{marginLeft:'10%'}}>
+                  {this.state.data.map((vid, i)=>{
                   </div>
                   </div>
 
