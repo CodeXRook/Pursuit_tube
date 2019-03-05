@@ -41,6 +41,7 @@ class Search extends Component {
               })
               let nextLoad = this.state.data.concat(videoListData)
               let obj = {vids: nextLoad};
+              let suggestions = JSON.parse(localStorage.getItem('suggestions'));
 
             }
         })
