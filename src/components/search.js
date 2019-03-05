@@ -39,10 +39,11 @@ class Search extends Component {
                 currentLoad.date = vid.snippet.publishedAt
                 videoListData.push(currentLoad)
               })
+
               let nextLoad = this.state.data.concat(videoListData)
               let obj = {vids: nextLoad};
               let suggestions = JSON.parse(localStorage.getItem('suggestions'));
-              if (!suggestions)
+              if (!suggestions){
               localStorage.setItem('suggestions',JSON.stringify(obj))
             }
             else {
