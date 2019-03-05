@@ -63,7 +63,9 @@ clickingFeed = (e, idx) =>{
            <div><h3>Explore Feed List</h3></div>
            <ul class="list-group"></ul>
            {
-                this.state.feed.map((feed, i)
+                this.state.feed.map((feed, i) => {
+                    let activeFeed = " ";
+                }
            }
 
            </div>
