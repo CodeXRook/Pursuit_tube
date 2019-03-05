@@ -52,6 +52,9 @@ clickingFeed = (e, idx) =>{
       return(
           <>
            <div className='row'>
+           <div className='col-6'>
+           
+           </div>
            
            </div>
           </>
