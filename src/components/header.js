@@ -19,6 +19,10 @@ const Navbar = props => {
              <Link to='/'>Home</Link>
              <Link to='/user'>User</Link>
              <Link to='/feededitor'>Feed Editor</Link>
+             </div>
+             
+             <input class="box" type="search" id="search" placeholder="Search" />
+
 
              </div>
 
