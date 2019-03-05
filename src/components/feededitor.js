@@ -66,6 +66,7 @@ clickingFeed = (e, idx) =>{
                 this.state.feed.map((feed, i) => {
                     let activeFeed = " ";
                     if (feed === this.state.currentFeed) activeFeed = "active"
+                    return <li key={i} className={"list-group-item d-flex justify-content-between align-items-center"} >{feed}
                 }
            }
 
