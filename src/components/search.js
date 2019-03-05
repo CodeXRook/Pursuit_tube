@@ -30,6 +30,7 @@ class Search extends Component {
         .then(response =>{
             const videoListData = []
             response.data.items.forEach(vid=>{
+                let currentLoad = {}
 
             }
         })
