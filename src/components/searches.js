@@ -58,7 +58,9 @@ componentDidUpdate(prevState, prevProps){
                 {this.state.videos.map((e, i) =>{
                     console.log('oneVid',e)
                     return<div>
-                        
+                        {e.snippet.default}
+                        {<img src={e.snippet.thumbnail.default.url} alt ='vid'/>}
+                        {e.snippet.channelTitle}
                 })
                 }
                 </div>
