@@ -90,12 +90,13 @@ class Search extends Component {
                     <p>{vid.channel_title}</p>
                     <p>{vid.descrip}</p>
                     <p>{this.relativeTime(vid.date)}</p>
-
                   </div>
                   </div>
+                })
+                {
+               <button onClick={e=>{this.getVideoList(this.props.match.params.search_term,this.state.offset+10)}}>Load More</button>
 
-             }
-
+                }
         }
     }
 }
