@@ -18,6 +18,7 @@ const Navbar = props => {
              <div class="navbar ">
              <Link to='/'>Home</Link>
              <Link to='/user'>User</Link>
+             <Link to='/feededitor'>Feed Editor</Link>
 
              </div>
 
