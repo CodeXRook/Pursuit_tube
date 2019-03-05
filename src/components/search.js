@@ -15,6 +15,7 @@ class Search extends Component {
     getVideoList = (query,pageToken='')=>{
         axios({
             method: 'get',
+            url: 'https://www.googleapis.com/youtube/v3/search',
         })
     }
 
