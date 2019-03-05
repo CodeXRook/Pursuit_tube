@@ -42,4 +42,8 @@ class User extends React.Component {
     }
     // LET NEWUSER = THIS.STATE.USER.PUSH(THIS.STATE.INPUT)
     let copiedUsers = [...this.state.users]
+    copiedUsers.push(this.state.input)
+    this.stetState({users: copiedUsers })
   }
+
+//BEFORE RENDERING AND AFTER THE FUNCTION
