@@ -11,5 +11,9 @@ class Search extends Component {
         super(props)
         this.state= { isLoading:true, data:[],pageToken:'', hover:false}
     }
-    
+
+    getVideoList = (query,pageToken='')=>{
+        
+    }
+
 }
