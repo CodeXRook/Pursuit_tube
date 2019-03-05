@@ -14,5 +14,6 @@ class FeedEditor extends React.Component {
 componentWillMount() {
     localStorage.getItem('feed') && this.setState({
         feed: JSON.parse(localStorage.getItem('feed')),
+        input: ''
     })
 }
