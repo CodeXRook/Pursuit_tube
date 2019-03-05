@@ -51,4 +51,13 @@ componentWillUpdate(nextProps,nextState){
     localStorage.setItem('user',JSON.stringify(nextState.users))
 }
 
+render(){
+    console.log(this.state)
+    return(
+        <>
+        
+        </>
+    )   
+}
+
 }
