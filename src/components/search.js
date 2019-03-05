@@ -27,6 +27,10 @@ class Search extends Component {
                 pageToken: pageToken
             }
         })
+        .then(response =>{
+            const videoListData = []
+        })
+
     }
 
 }
