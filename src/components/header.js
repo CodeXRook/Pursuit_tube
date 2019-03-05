@@ -5,8 +5,10 @@ import './home.css';
 const Navbar = props => {
     return (
         <>
+             <div class="flex-container">
+             
+             </div>
 
-        
         </>
     )
 }
