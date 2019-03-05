@@ -33,6 +33,7 @@ clickingFeed = (e, idx) =>{
     }
     addFeeder = (e) =>{
         console.log('keystroke', e)
+        e.preventDefault();
     }
   }
 }
