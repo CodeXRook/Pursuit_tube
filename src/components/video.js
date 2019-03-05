@@ -10,8 +10,13 @@ return(
     <div className= 'col-3'>
     
     <img src={thumbnail}alt=''></img>
+    {title}
+    {channel}
+    {posted}
 
     
     </div>
-)
+  );
 }
+
+export default VideoPlayer;
