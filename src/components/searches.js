@@ -5,7 +5,7 @@ import './home.css';
 import moment from 'moment'; //NEED TO GO OVER MOMENT;
 
 class Search extends React.Component {
-construcor(props){
+constructor(props){
     super(props)
     this.state ={
         input: 'Bethel',
