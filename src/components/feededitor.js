@@ -37,6 +37,9 @@ clickingFeed = (e, idx) =>{
         if (this.state.feed.includes(this.state.input)){
             return alert(`Feed ${this.state.input} is already in list`)
         }
+         //   LET NEWUSER = THIS.STATE.USERS.PUSH(THIS.STATE.INPUT)
+         let copiedFeed = [...this.state.feed]
+
     }
   }
 }
