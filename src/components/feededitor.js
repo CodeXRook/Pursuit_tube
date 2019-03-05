@@ -26,6 +26,9 @@ clickingFeed = (e, idx) =>{
     if (idx !== -1) {
         array.splice(idx, 1);
         this.setState({ feed: array });
-
     }
+    onFeedChange =(e) =>{
+        console.log(e.target.value)
+    }
+  }
 }
