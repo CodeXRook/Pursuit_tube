@@ -47,7 +47,16 @@ componentDidUpdate(prevState, prevProps){
     console.log('updated', prevState)
     console.log('stateNow', this.state)
     }
+  
+    render(){
+        return(
+            <>
 
+                <div className="row">
+
+            </>
+        )
+    }
  
     }
 }
