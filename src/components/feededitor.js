@@ -25,6 +25,7 @@ clickingFeed = (e, idx) =>{
     console.log(idx)
     if (idx !== -1) {
         array.splice(idx, 1);
+        this.setState({ feed: array });
 
     }
 }
