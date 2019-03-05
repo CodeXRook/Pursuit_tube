@@ -57,6 +57,7 @@ render(){
         <>
        <div className='row'>
        <div><h3>Create a New User</h3>
+       <input type='text' placeholder='name' onChange={this.onNameChange} /><button onClick={this.addNewUser}>add</button>
        
        </div>
        </div>
