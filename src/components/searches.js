@@ -53,7 +53,15 @@ componentDidUpdate(prevState, prevProps){
             <>
 
                 <div className="row">
-
+                <div className="col-2"></div>
+                <div className="container">
+                {this.state.videos.map((e, i) =>{
+                    console.log('oneVid',e)
+                    return<div>
+                        
+                })
+                }
+                </div>
             </>
         )
     }
