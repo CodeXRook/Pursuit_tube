@@ -28,9 +28,12 @@ construcor(props){
                 pageToken: ''
             }
         })
+        .then(res =>{
+            console.log('in here', res.data.items)
+        })
 
 
-        
+
     }
 }
 
