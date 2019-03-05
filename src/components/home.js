@@ -150,7 +150,7 @@ class Home extends React.Component {
                          return <div className='row' >
                          {
                              feed.videos.map((video)=> {
-                                 return<Video video={videeo} />
+                                 return<Video video={video} />
                              })
                          }
 
