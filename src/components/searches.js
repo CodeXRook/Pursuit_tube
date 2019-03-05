@@ -30,6 +30,8 @@ construcor(props){
         })
         .then(res =>{
             console.log('in here', res.data.items)
+            let queryCopy = [... res.data.items]
+            console.log('new', queryCopy)
         })
 
 
