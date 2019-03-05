@@ -33,3 +33,7 @@
     border: solid blue; 
     box-sizing: border-box;  
 }
+
+.navbar a:hover{
+    background-color: #ddd;
+}
