@@ -35,6 +35,7 @@ class Search extends Component {
                 currentLoad.img = vid.snippet.thumbnails.medium.url //IMG URL
                 currentLoad.title = vid.snippet.title //TITLE
                 currentLoadLoad.channel_title =vid.snippet.channel_Title
+                currentLoad.descrip = vid.snippet.description
 
             }
         })
