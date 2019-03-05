@@ -78,7 +78,10 @@ class Search extends Component {
              </div>
              else{
                  return<>
-                  <div className="jumbotron"></div>
+                  <div className="jumbotron">
+                  <div style={{marginLeft:'10%'}}>
+                  </div>
+                  </div>
 
              }
 
