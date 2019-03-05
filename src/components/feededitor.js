@@ -31,6 +31,8 @@ clickingFeed = (e, idx) =>{
         console.log(e.target.value)
         this.setState({ input: e.target.value })
     }
-    
+    addFeeder = (e) =>{
+        
+    }
   }
 }
