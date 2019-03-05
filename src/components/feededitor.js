@@ -23,4 +23,7 @@ clickingFeed = (e, idx) =>{
     let array = [...this.state.feed]; 
     let index = array.indexOf(currentFeed)
     console.log(idx)
+    if (idx !== -1) {
+        
+    }
 }
