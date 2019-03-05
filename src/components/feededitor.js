@@ -60,7 +60,8 @@ clickingFeed = (e, idx) =>{
            </div>
            
            <div className='col-6'>
-
+           <div><h3>Explore Feed List</h3></div>
+           
            </div>
           </>
       )
