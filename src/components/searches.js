@@ -37,6 +37,11 @@ construcor(props){
         })
     }
 
+    componentDidMount(){
+        let query = this.state.input
+        this.loadVideos(query)
+    }
+    
 
     }
 }
