@@ -24,6 +24,7 @@ clickingFeed = (e, idx) =>{
     let index = array.indexOf(currentFeed)
     console.log(idx)
     if (idx !== -1) {
-        
+        array.splice(idx, 1);
+
     }
 }
