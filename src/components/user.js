@@ -38,4 +38,7 @@ class User extends React.Component {
       console.log('keystroke', e)
       e.preventDeault();
       if (this.state.users.includes(this.state.input)) {
+        return alert(`Username ${this.state.input} already exist`)
+    }
+    
   }
