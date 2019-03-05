@@ -32,6 +32,7 @@ class Search extends Component {
             response.data.items.forEach(vid=>{
                 let currentLoad = {}
                 currentLoad.video_id = vid.id.videoId  //VIDEO ID
+                currentLoad.img = vid.snippet.thumbnails.medium.url //IMG URL
 
             }
         })
