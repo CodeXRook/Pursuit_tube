@@ -62,7 +62,14 @@ render(){
 
        <div className='col-6'>
        <div><h3>User list</h3></div>
-       
+       <ul className= "list-group">
+       {
+           this.state.users.map((name, i) =>{
+               
+           })
+
+       }
+       </ul>
        </div>
        </div>
         </>
