@@ -20,6 +20,10 @@ construcor(props){
             params:{
                 part: 'snippet',
                 maxResults: 10,
+                videoDefintion: 'high',
+                type: 'video',
+                videoEmbeddable: 'true',
+                
             }
         })
     }
