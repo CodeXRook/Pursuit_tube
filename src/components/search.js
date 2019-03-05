@@ -53,7 +53,7 @@ class Search extends Component {
            })
         }
             componentDidMount(){
-                
+                this.getVideoList(this.props.match.params.search_term)
             }
     }
 }
