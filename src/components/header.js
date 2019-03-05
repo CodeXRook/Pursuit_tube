@@ -13,6 +13,9 @@ const Navbar = props => {
 
              <div class="Pursuit">
              <ol> <a>Pursuit Tube</a> </ol>
+             </div>
+
+             <div class="navbar ">
 
              </div>
 
