@@ -36,6 +36,7 @@ class Search extends Component {
                 currentLoad.title = vid.snippet.title //TITLE
                 currentLoadLoad.channel_title =vid.snippet.channel_Title
                 currentLoad.descrip = vid.snippet.description
+                currentLoad.date = vid.snippet.publishedAt
 
             }
         })
