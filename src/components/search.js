@@ -83,6 +83,9 @@ class Search extends Component {
                   {this.state.data.map((vid, i)=>{
                       return <div className='hover row' key={i}>
                         <div className='col-4'>
+                        <Link to={`/video/${vid.video_id}`}><img onClick={e=>this.addHistory(vid)} src={vid.img} alt={vid.img} /></Link>
+                    </div>
+                    
                   </div>
                   </div>
 
