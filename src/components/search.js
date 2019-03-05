@@ -69,7 +69,11 @@ class Search extends Component {
                 const scrollHeight = (document.documentElement && document.documentElement.scrollHeight) || document.body.scrollHeight;
                 const clientHeight = document.documentElement.clientHeight || window.innerHeight;
                 const scrolledToBottom = Math.ceil(scrollTop + clientHeight) >= scrollHeight;
-
             }
+        }
+
+        render(){
+            
+        }
     }
 }
