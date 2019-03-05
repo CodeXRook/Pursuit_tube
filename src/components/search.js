@@ -40,7 +40,8 @@ class Search extends Component {
                 videoListData.push(currentLoad)
               })
               let nextLoad = this.state.data.concat(videoListData)
-              
+              let obj = {vids: nextLoad};
+
             }
         })
 
