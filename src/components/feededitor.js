@@ -10,6 +10,8 @@ class FeedEditor extends React.Component {
             currentFeed: ''
         }
     }
+
+
     //DOES IT EXIST IN LOCAL STORAGE?, IF YES THEN SET IT TO STATE
     componentWillMount() {
         localStorage.getItem('feed') && this.setState({
@@ -17,6 +19,7 @@ class FeedEditor extends React.Component {
             input: ''
         })
     }
+
 
     clickingFeed = (e, idx) => {
         const currentFeed = this.state.feed[idx]
@@ -27,6 +30,8 @@ class FeedEditor extends React.Component {
             array.splice(idx, 1);
             this.setState({ feed: array });
         }
+    
+    }
 
         onFeedChange = (e) => {
             console.log(e.target.value)
@@ -47,10 +52,12 @@ class FeedEditor extends React.Component {
             this.setState({ feed: copiedFeed })
 
         }
+
         //BEFORE RENDERING AND AFTER THE FUNCTION
-        componentWillUpdate(nextProps, nextState)
+        componentWillUpdate(nextProps, nextState){
         localStorage.setItem('feed', JSON.stringify(nextState.feed))
     }
+
 
     render() {
         console.log(this.state)
@@ -61,12 +68,11 @@ class FeedEditor extends React.Component {
                     <div className='col-6'>
                         <div><h3>Create a New Explore Feed</h3></div>
                         <input type='text' placeholder='feed' onChange={this.onFeedChange} /><button onClick={this.addFeeder}>add</button>
-
                     </div>
 
                     <div className='col-6'>
                         <div><h3>Explore Feed List</h3></div>
-                        <ul class="list-group"></ul>
+                        <ul class="list-group">
                         {
                             this.state.feed.map((feed, i) => {
                                 let activeFeed = " ";
@@ -74,13 +80,13 @@ class FeedEditor extends React.Component {
                                 return <li key={i} className={"list-group-item d-flex justify-content-between align-items-center"} >{feed}
                                     <span class={"badge badge-primary badge-pill " + activeFeed} onClick={(e) => this.clickingFeed(e, i)} >x</span></li>
                             })
-                        }
-
-                 </ul>
+                          }
+                        </ul>
                 </div>
             </div>
           </>
-      )
+
+       )
     }
 }
 
