@@ -47,3 +47,8 @@ class User extends React.Component {
   }
 
 //BEFORE RENDERING AND AFTER THE FUNCTION
+componentWillUpdate(nextProps,nextState){
+    localStorage.setItem('user',JSON.stringify(nextState.users))
+}
+
+}
