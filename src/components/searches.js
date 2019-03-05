@@ -32,8 +32,10 @@ construcor(props){
             console.log('in here', res.data.items)
             let queryCopy = [... res.data.items]
             console.log('new', queryCopy)
+            this.setState({ videos: queryCopy })
+            console.log('err', this.state.videos)
         })
-
+    }
 
 
     }
