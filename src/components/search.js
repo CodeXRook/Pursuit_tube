@@ -61,6 +61,7 @@ class Search extends Component {
             componentWillReceiveProps(newProps){
                 this.setState({data:[]})
                 this.getVideoList(newProps.match.params.search_term)
+                window.addEventListener('scroll', this.handleOnScroll)
 
             }
     }
