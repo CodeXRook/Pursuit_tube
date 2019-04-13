@@ -33,6 +33,9 @@ class Form extends React.Component {
         
  }
         render(){
+            
+            const { name, image, price } = this.state;
+
     return (
 
         <form className="needs-validation" novalidate>
