@@ -15,6 +15,11 @@ class Form extends React.Component {
             handleChange = (e) => {
                 this.setState({ [e.target.name]: e.target.value});
             }
+
+            handleSubmit = (e) => {
+                e.preventDefault();
+            }
+            
         // handleInputChange = (e) => {
         //     const input = e.target.value
         //     this.setState ({ input });
