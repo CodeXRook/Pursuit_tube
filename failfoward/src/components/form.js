@@ -13,7 +13,7 @@ class Form extends React.Component {
             }
 
             handleChange = (e) => {
-                
+                this.setState({ [e.target.name]: e.target.value});
             }
         // handleInputChange = (e) => {
         //     const input = e.target.value
