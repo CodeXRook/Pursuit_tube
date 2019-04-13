@@ -12,6 +12,9 @@ class Form extends React.Component {
                 price: ''
             }
 
+            handleChange = (e) => {
+                
+            }
         // handleInputChange = (e) => {
         //     const input = e.target.value
         //     this.setState ({ input });
